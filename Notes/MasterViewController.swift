@@ -37,7 +37,7 @@ class MasterViewController: UITableViewController {
             detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
         }
         
-        self.title = "" //remove main screen navigation-bar title
+        self.navigationItem.titleView = UIView() //Hide navigation-bar title
     }
 
     override func viewWillAppear(_ animated: Bool) {
