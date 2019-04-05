@@ -1,4 +1,4 @@
-# Notes
+# Swift Note
 
 A Simple Clean Notes App For iOS that uses UserDafaults.
 
